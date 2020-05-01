@@ -7,6 +7,9 @@ This is application that generates a random password based on user-selected crit
 
 This app runs in the browser and feature dynamically updated HTML and CSS powered by  JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
+## Demonstration:
+![sharkFin](Assets/password-generator-project.jpg)
+
 ## Methods:
 
 * Define the variables for the characters that the password can contain (lowercase, uppercase letters, numbers and symbols characters).
@@ -23,7 +26,11 @@ This app runs in the browser and feature dynamically updated HTML and CSS powere
 
 ## Link on GitHub:
 
-https://github.com/iamha1/password-generator
+- https://github.com/iamha1/password-generator
+
+## Deployment:
+
+- https://iamha1.github.io/password-generator/
 
 ## Reference: 
 
