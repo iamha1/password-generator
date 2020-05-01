@@ -1,6 +1,16 @@
-
+// Assignment Code
 var generateBtn = document.querySelector("#generate");
 var passText = document.querySelector("#password");
+
+// Write password to the #password input
+//function writePassword() {
+//var password = generatePassword();
+//var passwordText = document.querySelector("#password");
+
+//passwordText.value = password;
+//}
+// Add event listener to generate button
+//generateBtn.addEventListener("click", writePassword);
 
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
@@ -10,8 +20,8 @@ var symbols = "!@#$%^&*()?";
 
 function myButton() {
   var passwordLength = parseInt(prompt("How many characters would you like your password to contain?"));
-
-  if (passwordLength < 8 || passwordLength > 128) {
+  
+  if(passwordLength < 8 || passwordLength > 128) {
     alert("Password does not meet the length requirements");
   } else {
     console.log(passwordLength);
@@ -37,14 +47,17 @@ function myButton() {
       possibleCharacters += symbols
     }
 
+
     possibleCharacters = possibleCharacters.split("");
-    // console.log(possibleCharacters);
+   // console.log(possibleCharacters);
 
     var password = "";
     for (var i = 0; i < passwordLength; i++) {
       var character = possibleCharacters[Math.floor(Math.random() * possibleCharacters.length)];
       //console.log(character);
       password += character;
+      //password = all.substring(character, character + 1);
+
     }
 
     console.log(passText)
@@ -52,5 +65,5 @@ function myButton() {
     passText.value = password;
   }
 }
-// Add event listener to generate button
+
 generateBtn.addEventListener("click", myButton)
