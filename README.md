@@ -3,7 +3,7 @@
 This is application that generates a random password based on user-selected criteria. 
 
 
-## Descriptions:
+## Description:
 
 This app runs in the browser and feature dynamically updated HTML and CSS powered by  JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
@@ -32,7 +32,7 @@ This app runs in the browser and feature dynamically updated HTML and CSS powere
 
 - https://iamha1.github.io/password-generator/
 
-## Reference: 
+## References: 
 
 - https://www.w3schools.com/ 
 - https://stackoverflow.com/
